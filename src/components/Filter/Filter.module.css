@@ -1,0 +1,58 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text {
+  margin-right: 4px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.cross {
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.btn:hover > svg,
+.btn:focus > svg,
+.item:hover > svg,
+.item:focus > svg {
+  fill: var(--accent-color);
+}

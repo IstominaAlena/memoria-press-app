@@ -1,0 +1,122 @@
+.container {
+  padding: 20px 70px;
+}
+.innerTable {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.headRow > th {
+  padding-bottom: 17px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: var(--navigation-text-color);
+}
+
+.headRow > th:nth-child(1) {
+  width: 32px;
+}
+
+.headRow > th:nth-child(2) {
+  width: 312px;
+}
+
+.headRow > th:nth-child(3),
+.headRow > th:nth-child(9) {
+  width: 60px;
+}
+
+.headRow > th:nth-child(4),
+.headRow > th:nth-child(8) {
+  width: 125px;
+}
+
+.headRow > th:nth-child(5) {
+  width: 80px;
+}
+
+.headRow > th:nth-child(6) {
+  width: 130px;
+}
+
+.headRow > th:nth-child(7) {
+  width: 164px;
+}
+
+.bodyRow:hover,
+.bodyRow:focus {
+  border: 1px solid var(--accent-color);
+  background-color: #fcddec;
+  box-shadow: 0px 1px 3px var(--shadow-color), 0px 1px 1px var(--shadow-color),
+    0px 2px 1px var(--shadow-color);
+}
+
+.bodyRow > td {
+  padding-bottom: 6px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+
+  color: var(--navigation-text-color);
+}
+
+.bodyRow > td:nth-child(9) {
+  padding-left: 15px;
+}
+
+.passiveRow > td:not(:first-child) {
+  color: var(--secondary-text-color);
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 2px solid var(--navigation-text-color);
+  border-radius: 3px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.average {
+  margin-right: 237px;
+  margin-left: 60px;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+
+  color: var(--navigation-text-color);
+}
+.value {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+
+  color: var(--xl-rate-color);
+}
+
+.value:last-child {
+  margin-left: 60px;
+  width: 87px;
+}
+
+.main {
+  margin: -16px;
+  background-color: var(--secondary-background-color);
+}

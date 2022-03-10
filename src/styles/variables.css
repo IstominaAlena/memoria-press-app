@@ -1,0 +1,17 @@
+:root {
+  --accent-color: #a6192e;
+
+  --accent-background-color: #5b5b5b;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f2f2f2;
+
+  --main-text-color: #828282;
+  --secondary-text-color: #c0c0c0;
+  --navigation-text-color: #777777;
+  --key-text-color: #5b5b5b;
+
+  --xl-rate-color: #4285f4;
+  --l-rate-color: #0f9d58;
+  --m-rate-color: #e2b534;
+  --s-rate-color: #db4437;
+}

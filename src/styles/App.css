@@ -1,0 +1,31 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+@import "./variables.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: transparent !important;
+}

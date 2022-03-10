@@ -1,0 +1,44 @@
+.link {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  color: var(--navigation-text-color);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+  margin-left: 63px;
+}
+
+.item {
+  padding: 6px 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.item:hover,
+.item:focus {
+  background-color: var(--accent-color);
+}
+
+.item:hover > .link,
+.item:focus > .link {
+  color: var(--main-background-color);
+}
+
+.current {
+  background-color: var(--accent-color);
+}
+
+.current > .link {
+  color: var(--main-background-color);
+}

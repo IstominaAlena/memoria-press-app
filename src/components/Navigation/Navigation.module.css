@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+}
+.nav {
+  margin-right: 4px;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  color: var(--navigation-text-color);
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box:hover > svg,
+.box:focus > svg {
+  fill: var(--accent-color);
+}

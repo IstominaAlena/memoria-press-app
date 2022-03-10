@@ -1,0 +1,7 @@
+.outside-svg {
+  fill: var(--navigation-text-color);
+}
+
+.inside-svg {
+  fill: var(--secondary-text-color);
+}
