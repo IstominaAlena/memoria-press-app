@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/memoria-press-app/static/css/main.3a77be53.css",
+    "main.js": "/memoria-press-app/static/js/main.35b43dc5.js",
+    "static/media/sprite.svg": "/memoria-press-app/static/media/sprite.06c5110941561b2b58b52d765fcecebd.svg",
+    "index.html": "/memoria-press-app/index.html",
+    "main.3a77be53.css.map": "/memoria-press-app/static/css/main.3a77be53.css.map",
+    "main.35b43dc5.js.map": "/memoria-press-app/static/js/main.35b43dc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a77be53.css",
+    "static/js/main.35b43dc5.js"
+  ]
+}
